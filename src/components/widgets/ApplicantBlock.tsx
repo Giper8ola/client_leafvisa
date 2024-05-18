@@ -8,7 +8,7 @@ import {Toast} from "primereact/toast";
 const ApplicantBlock: FC<ApplicationBlockProps> = ({defaultState, amount, applicants}) => {
     const toastRef = useRef<Toast>(null)
     const [cur, setCur] = useState<number>(0)
-    const {details, pushApplicant} = useOrderStore(store => store)
+    const {details} = useOrderStore(store => store)
     const [app, setApp] = useState(applicants ? applicants[0] : null)
 
     useEffect(() => {

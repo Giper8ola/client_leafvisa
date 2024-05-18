@@ -1,4 +1,4 @@
-import React, {FC, ReactNode} from 'react';
+import React, {FC} from 'react';
 import {OrderInputProps} from "@/utils/types/types";
 
 const OrderInfo: FC<OrderInputProps> = ({value, children}) => {

@@ -2,7 +2,6 @@ import React from 'react';
 import {Controller, SubmitHandler, useForm} from "react-hook-form";
 import {MultiSelect} from "primereact/multiselect";
 import {CATEGORY, CITIES} from "@/utils/const";
-import {InputText} from "primereact/inputtext";
 import {Button} from "primereact/button";
 import {CreateOrderForm} from "@/utils/types/types";
 import {generateDefaultBody} from "@/utils/lib/generateDefaultBody";
