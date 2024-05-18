@@ -1,0 +1,12 @@
+@import 'primereact/resources/themes/saga-blue/theme.css' layer(primereact);
+
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
